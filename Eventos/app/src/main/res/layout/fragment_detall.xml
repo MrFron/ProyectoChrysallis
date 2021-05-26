@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetallFragment"
+    android:background="@color/fondo">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textViewTitol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="MANIFESTACIÓN"
+        android:textAlignment="center"
+        android:textColor="#EDB74C"
+        android:textSize="40dp" />
+
+    <ImageView
+        android:id="@+id/imageViewImg"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:scaleType="fitCenter" />
+
+
+    <TextView
+        android:id="@+id/textViewDescripcio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sera una barbacoa solidaraia para recoger fondos para proximas actividades."
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+
+
+
+
+    <ListView
+        android:id="@+id/listDocuments"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="ASISTIRÉ"
+        android:textColor="#EDB74C" />
+
+</LinearLayout>

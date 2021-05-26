@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="fondo">#414141</color>
+    <color name="blanc">#FFFFFF</color>
+    <color name="tronja">#EDB74C</color>
+    <color name="rosa">#FF99D7</color>
+    <color name="blau">#7BEFFF</color>
+    <color name="fondoTrans">#75414141</color>
+    <color name="fondoClar">#7A7A7A</color>
+    <color name="trans">#007A7A7A</color>
+    <color name="tronjatrans">#8BEDB74C</color>
+    <color name="blautrans">#A97BEFFF</color>
+</resources>

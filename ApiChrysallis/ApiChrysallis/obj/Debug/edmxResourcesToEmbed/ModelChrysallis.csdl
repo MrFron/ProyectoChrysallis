@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ChrysallisModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="assistir">
+    <Key>
+      <PropertyRef Name="id_soci" />
+      <PropertyRef Name="id_esdeveniment" />
+    </Key>
+    <Property Name="id_soci" Type="Int32" Nullable="false" />
+    <Property Name="id_esdeveniment" Type="Int32" Nullable="false" />
+    <Property Name="num_familiars" Type="Int32" />
+    <Property Name="valoració" Type="Int32" />
+    <Property Name="comentari" Type="String" MaxLength="256" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Soci" Relationship="Self.FK_assistir_esdeveniments" FromRole="assistir" ToRole="Soci" />
+    <NavigationProperty Name="esdeveniments" Relationship="Self.FK_assistir_esdeveniments1" FromRole="assistir" ToRole="esdeveniments" />
+  </EntityType>
+  <EntityType Name="comunitats">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nom" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="esdeveniments" Relationship="Self.FK_esdeveniments_comunitats1" FromRole="comunitats" ToRole="esdeveniments" />
+    <NavigationProperty Name="Soci" Relationship="Self.comunitats_soci" FromRole="comunitats" ToRole="Soci" />
+  </EntityType>
+  <EntityType Name="documents">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="document" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="id_event" Type="Int32" />
+    <Property Name="nom" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="esdeveniments" Relationship="Self.FK_documents_esdeveniments" FromRole="documents" ToRole="esdeveniments" />
+  </EntityType>
+  <EntityType Name="esdeveniments">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="data" Type="DateTime" Precision="0" />
+    <Property Name="hora" Type="Time" Precision="7" />
+    <Property Name="ubicació" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="data_limit" Type="DateTime" Precision="0" />
+    <Property Name="id_comunitat" Type="Int32" />
+    <Property Name="descripcio" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="nom" Type="String" MaxLength="75" FixedLength="false" Unicode="false" />
+    <Property Name="img" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="assistir" Relationship="Self.FK_assistir_esdeveniments1" FromRole="esdeveniments" ToRole="assistir" />
+    <NavigationProperty Name="comunitats" Relationship="Self.FK_esdeveniments_comunitats1" FromRole="esdeveniments" ToRole="comunitats" />
+    <NavigationProperty Name="documents" Relationship="Self.FK_documents_esdeveniments" FromRole="esdeveniments" ToRole="documents" />
+    <NavigationProperty Name="notificacions" Relationship="Self.notificacions_esdeveniments" FromRole="esdeveniments" ToRole="notificacions" />
+  </EntityType>
+  <EntityType Name="notificacions">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="antelació" Type="Int32" />
+    <NavigationProperty Name="esdeveniments" Relationship="Self.notificacions_esdeveniments" FromRole="notificacions" ToRole="esdeveniments" />
+  </EntityType>
+  <EntityType Name="Soci">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="telefon" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="mail" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="nom" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="cognoms" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="contrasenya" Type="String" MaxLength="256" FixedLength="false" Unicode="false" />
+    <Property Name="actiu" Type="Boolean" />
+    <Property Name="administrador" Type="Boolean" />
+    <NavigationProperty Name="assistir" Relationship="Self.FK_assistir_esdeveniments" FromRole="Soci" ToRole="assistir" />
+    <NavigationProperty Name="comunitats" Relationship="Self.comunitats_soci" FromRole="Soci" ToRole="comunitats" />
+  </EntityType>
+  <Association Name="FK_assistir_esdeveniments">
+    <End Role="Soci" Type="Self.Soci" Multiplicity="1" />
+    <End Role="assistir" Type="Self.assistir" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Soci">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="assistir">
+        <PropertyRef Name="id_soci" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_assistir_esdeveniments1">
+    <End Role="esdeveniments" Type="Self.esdeveniments" Multiplicity="1" />
+    <End Role="assistir" Type="Self.assistir" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="esdeveniments">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="assistir">
+        <PropertyRef Name="id_esdeveniment" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_esdeveniments_comunitats1">
+    <End Role="comunitats" Type="Self.comunitats" Multiplicity="0..1" />
+    <End Role="esdeveniments" Type="Self.esdeveniments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="comunitats">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="esdeveniments">
+        <PropertyRef Name="id_comunitat" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_documents_esdeveniments">
+    <End Role="esdeveniments" Type="Self.esdeveniments" Multiplicity="0..1" />
+    <End Role="documents" Type="Self.documents" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="esdeveniments">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="documents">
+        <PropertyRef Name="id_event" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="comunitats_soci">
+    <End Role="comunitats" Type="Self.comunitats" Multiplicity="*" />
+    <End Role="Soci" Type="Self.Soci" Multiplicity="*" />
+  </Association>
+  <Association Name="notificacions_esdeveniments">
+    <End Role="esdeveniments" Type="Self.esdeveniments" Multiplicity="*" />
+    <End Role="notificacions" Type="Self.notificacions" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="ChrysallisEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="assistir" EntityType="Self.assistir" />
+    <EntitySet Name="comunitats" EntityType="Self.comunitats" />
+    <EntitySet Name="documents" EntityType="Self.documents" />
+    <EntitySet Name="esdeveniments" EntityType="Self.esdeveniments" />
+    <EntitySet Name="notificacions" EntityType="Self.notificacions" />
+    <EntitySet Name="Soci" EntityType="Self.Soci" />
+    <AssociationSet Name="FK_assistir_esdeveniments" Association="Self.FK_assistir_esdeveniments">
+      <End Role="Soci" EntitySet="Soci" />
+      <End Role="assistir" EntitySet="assistir" />
+    </AssociationSet>
+    <AssociationSet Name="FK_assistir_esdeveniments1" Association="Self.FK_assistir_esdeveniments1">
+      <End Role="esdeveniments" EntitySet="esdeveniments" />
+      <End Role="assistir" EntitySet="assistir" />
+    </AssociationSet>
+    <AssociationSet Name="FK_esdeveniments_comunitats1" Association="Self.FK_esdeveniments_comunitats1">
+      <End Role="comunitats" EntitySet="comunitats" />
+      <End Role="esdeveniments" EntitySet="esdeveniments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_documents_esdeveniments" Association="Self.FK_documents_esdeveniments">
+      <End Role="esdeveniments" EntitySet="esdeveniments" />
+      <End Role="documents" EntitySet="documents" />
+    </AssociationSet>
+    <AssociationSet Name="comunitats_soci" Association="Self.comunitats_soci">
+      <End Role="comunitats" EntitySet="comunitats" />
+      <End Role="Soci" EntitySet="Soci" />
+    </AssociationSet>
+    <AssociationSet Name="notificacions_esdeveniments" Association="Self.notificacions_esdeveniments">
+      <End Role="esdeveniments" EntitySet="esdeveniments" />
+      <End Role="notificacions" EntitySet="notificacions" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

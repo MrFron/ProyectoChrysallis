@@ -1,0 +1,100 @@
+C:\Users\franc\Desktop\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\App escritorio Chrysallis2.exe.config
+C:\Users\franc\Desktop\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\App escritorio Chrysallis2.exe
+C:\Users\franc\Desktop\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\App escritorio Chrysallis2.pdb
+C:\Users\franc\Desktop\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\EntityFramework.dll
+C:\Users\franc\Desktop\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\franc\Desktop\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\EntityFramework.xml
+C:\Users\franc\Desktop\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\franc\Desktop\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App escritorio Chrysallis2.csprojAssemblyReference.cache
+C:\Users\franc\Desktop\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.Properties.Resources.resources
+C:\Users\franc\Desktop\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App escritorio Chrysallis2.csproj.GenerateResource.cache
+C:\Users\franc\Desktop\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App escritorio Chrysallis2.csproj.CoreCompileInputs.cache
+C:\Users\franc\Desktop\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App escritorio Chrysallis2.csproj.CopyComplete
+C:\Users\franc\Desktop\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App escritorio Chrysallis2.exe
+C:\Users\franc\Desktop\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App escritorio Chrysallis2.pdb
+C:\Users\franc\Desktop\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormAltaModificarSocios.resources
+C:\Users\franc\Desktop\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormAniadirModificar.resources
+C:\Users\franc\Desktop\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormConsultarEvento.resources
+C:\Users\franc\Desktop\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormConsultarUsuario.resources
+C:\Users\franc\Desktop\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormEventos.resources
+C:\Users\franc\Desktop\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormLogin.resources
+C:\Users\franc\Desktop\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormSeleccionar.resources
+C:\Users\franc\Desktop\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormSocios.resources
+C:\Users\franc\Desktop\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\franc\Desktop\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\OC.Core.Crypto.dll
+C:\Users\franc\Desktop\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\OC.Core.dll
+C:\Users\franc\Desktop\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\BouncyCastle.Crypto.pdb
+C:\Users\franc\Desktop\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\OC.Core.pdb
+C:\Users\franc\Desktop\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\OC.Core.Crypto.pdb
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\App escritorio Chrysallis2.exe.config
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\App escritorio Chrysallis2.exe
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\App escritorio Chrysallis2.pdb
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\EntityFramework.dll
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\OC.Core.Crypto.dll
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\OC.Core.dll
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\BouncyCastle.Crypto.pdb
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\EntityFramework.xml
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\OC.Core.pdb
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\OC.Core.Crypto.pdb
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App escritorio Chrysallis2.csprojAssemblyReference.cache
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormAltaModificarSocios.resources
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormAniadirModificar.resources
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormConsultarEvento.resources
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormConsultarUsuario.resources
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormEventos.resources
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormLogin.resources
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormSeleccionar.resources
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormSocios.resources
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.Properties.Resources.resources
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App escritorio Chrysallis2.csproj.GenerateResource.cache
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App escritorio Chrysallis2.csproj.CoreCompileInputs.cache
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App escritorio Chrysallis2.csproj.CopyComplete
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App escritorio Chrysallis2.exe
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App escritorio Chrysallis2.pdb
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormInfoAniadirModificarEvento.resources
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormInfoConsultarEvento.resources
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormInfoEventos.resources
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormInfoSocios.resources
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormAsistentes.resources
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormValoraciones.resources
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormInfoValoraciones.resources
+C:\Users\franc\Desktop\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormInfoAsistentes.resources
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\App escritorio Chrysallis2.exe.config
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\App escritorio Chrysallis2.exe
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\App escritorio Chrysallis2.pdb
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\EntityFramework.dll
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\OC.Core.Crypto.dll
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\OC.Core.dll
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\BouncyCastle.Crypto.pdb
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\EntityFramework.xml
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\OC.Core.pdb
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\bin\Debug\OC.Core.Crypto.pdb
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App escritorio Chrysallis2.csprojAssemblyReference.cache
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormAltaModificarSocios.resources
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormAniadirModificar.resources
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormAsistentes.resources
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormConsultarEvento.resources
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormConsultarUsuario.resources
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormEventos.resources
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormInfoAniadirModificarEvento.resources
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormInfoAsistentes.resources
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormInfoConsultarEvento.resources
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormInfoEventos.resources
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormInfoSocios.resources
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormInfoValoraciones.resources
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormLogin.resources
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormSeleccionar.resources
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormSocios.resources
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.FormValoraciones.resources
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App_escritorio_Chrysallis2.Properties.Resources.resources
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App escritorio Chrysallis2.csproj.GenerateResource.cache
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App escritorio Chrysallis2.csproj.CoreCompileInputs.cache
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App escritorio Chrysallis2.csproj.CopyComplete
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App escritorio Chrysallis2.exe
+C:\Users\franc\Desktop\ABP Chrysallis\APP ESCRITORIO CHRYSALLIS\App escritorio Chrysallis2\App escritorio Chrysallis2\obj\Debug\App escritorio Chrysallis2.pdb

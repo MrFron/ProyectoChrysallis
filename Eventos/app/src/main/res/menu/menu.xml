@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/inicio"
+        android:icon="@drawable/home"
+        android:title="Inicio" />
+
+    <item
+        android:id="@+id/MisEventos"
+        android:icon="@drawable/event"
+        android:title="MisEventos"
+
+        />
+
+    <item
+        android:id="@+id/Notificaciones"
+        android:icon="@drawable/notificacion"
+        android:title="Notificaciones"
+
+        />
+
+    <item
+        android:id="@+id/Cuenta"
+        android:icon="@drawable/account"
+        android:title="Cuenta"
+
+        />
+</menu>

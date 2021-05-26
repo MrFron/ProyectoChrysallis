@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ChrysallisModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="assistir">
+    <Key>
+      <PropertyRef Name="id_soci" />
+      <PropertyRef Name="id_esdeveniment" />
+    </Key>
+    <Property Name="id_soci" Type="int" Nullable="false" />
+    <Property Name="id_esdeveniment" Type="int" Nullable="false" />
+    <Property Name="num_familiars" Type="int" />
+    <Property Name="valoració" Type="int" />
+    <Property Name="comentari" Type="varchar" MaxLength="256" />
+  </EntityType>
+  <EntityType Name="comunitats">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nom" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="comunitats_soci">
+    <Key>
+      <PropertyRef Name="id_soci" />
+      <PropertyRef Name="id_comunitat" />
+    </Key>
+    <Property Name="id_soci" Type="int" Nullable="false" />
+    <Property Name="id_comunitat" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="documents">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="document" Type="varbinary(max)" />
+    <Property Name="id_event" Type="int" />
+    <Property Name="nom" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="esdeveniments">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="data" Type="date" />
+    <Property Name="hora" Type="time" Precision="7" />
+    <Property Name="ubicació" Type="varchar" MaxLength="50" />
+    <Property Name="data_limit" Type="date" />
+    <Property Name="id_comunitat" Type="int" />
+    <Property Name="descripcio" Type="varchar(max)" />
+    <Property Name="nom" Type="varchar" MaxLength="75" />
+    <Property Name="img" Type="image" />
+  </EntityType>
+  <EntityType Name="notificacions">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="antelació" Type="int" />
+  </EntityType>
+  <EntityType Name="notificacions_esdeveniments">
+    <Key>
+      <PropertyRef Name="id_esdeveniment" />
+      <PropertyRef Name="id_notificació" />
+    </Key>
+    <Property Name="id_esdeveniment" Type="int" Nullable="false" />
+    <Property Name="id_notificació" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Soci">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="telefon" Type="varchar" MaxLength="15" />
+    <Property Name="mail" Type="varchar" MaxLength="60" />
+    <Property Name="nom" Type="varchar" MaxLength="20" />
+    <Property Name="cognoms" Type="varchar" MaxLength="60" />
+    <Property Name="contrasenya" Type="varchar" MaxLength="256" />
+    <Property Name="actiu" Type="bit" />
+    <Property Name="administrador" Type="bit" />
+  </EntityType>
+  <Association Name="FK_assistir_esdeveniments">
+    <End Role="Soci" Type="Self.Soci" Multiplicity="1" />
+    <End Role="assistir" Type="Self.assistir" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Soci">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="assistir">
+        <PropertyRef Name="id_soci" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_assistir_esdeveniments1">
+    <End Role="esdeveniments" Type="Self.esdeveniments" Multiplicity="1" />
+    <End Role="assistir" Type="Self.assistir" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="esdeveniments">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="assistir">
+        <PropertyRef Name="id_esdeveniment" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_comunitats_soci_comunitats">
+    <End Role="comunitats" Type="Self.comunitats" Multiplicity="1" />
+    <End Role="comunitats_soci" Type="Self.comunitats_soci" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="comunitats">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="comunitats_soci">
+        <PropertyRef Name="id_comunitat" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_comunitats_soci_Soci">
+    <End Role="Soci" Type="Self.Soci" Multiplicity="1" />
+    <End Role="comunitats_soci" Type="Self.comunitats_soci" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Soci">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="comunitats_soci">
+        <PropertyRef Name="id_soci" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_documents_esdeveniments">
+    <End Role="esdeveniments" Type="Self.esdeveniments" Multiplicity="0..1" />
+    <End Role="documents" Type="Self.documents" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="esdeveniments">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="documents">
+        <PropertyRef Name="id_event" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_esdeveniments_comunitats1">
+    <End Role="comunitats" Type="Self.comunitats" Multiplicity="0..1" />
+    <End Role="esdeveniments" Type="Self.esdeveniments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="comunitats">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="esdeveniments">
+        <PropertyRef Name="id_comunitat" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_notificacions_esdeveniments_esdeveniments">
+    <End Role="esdeveniments" Type="Self.esdeveniments" Multiplicity="1" />
+    <End Role="notificacions_esdeveniments" Type="Self.notificacions_esdeveniments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="esdeveniments">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="notificacions_esdeveniments">
+        <PropertyRef Name="id_esdeveniment" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_notificacions_esdeveniments_notificacions">
+    <End Role="notificacions" Type="Self.notificacions" Multiplicity="1" />
+    <End Role="notificacions_esdeveniments" Type="Self.notificacions_esdeveniments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="notificacions">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="notificacions_esdeveniments">
+        <PropertyRef Name="id_notificació" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ChrysallisModelStoreContainer">
+    <EntitySet Name="assistir" EntityType="Self.assistir" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="comunitats" EntityType="Self.comunitats" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="comunitats_soci" EntityType="Self.comunitats_soci" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="documents" EntityType="Self.documents" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="esdeveniments" EntityType="Self.esdeveniments" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="notificacions" EntityType="Self.notificacions" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="notificacions_esdeveniments" EntityType="Self.notificacions_esdeveniments" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Soci" EntityType="Self.Soci" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_assistir_esdeveniments" Association="Self.FK_assistir_esdeveniments">
+      <End Role="Soci" EntitySet="Soci" />
+      <End Role="assistir" EntitySet="assistir" />
+    </AssociationSet>
+    <AssociationSet Name="FK_assistir_esdeveniments1" Association="Self.FK_assistir_esdeveniments1">
+      <End Role="esdeveniments" EntitySet="esdeveniments" />
+      <End Role="assistir" EntitySet="assistir" />
+    </AssociationSet>
+    <AssociationSet Name="FK_comunitats_soci_comunitats" Association="Self.FK_comunitats_soci_comunitats">
+      <End Role="comunitats" EntitySet="comunitats" />
+      <End Role="comunitats_soci" EntitySet="comunitats_soci" />
+    </AssociationSet>
+    <AssociationSet Name="FK_comunitats_soci_Soci" Association="Self.FK_comunitats_soci_Soci">
+      <End Role="Soci" EntitySet="Soci" />
+      <End Role="comunitats_soci" EntitySet="comunitats_soci" />
+    </AssociationSet>
+    <AssociationSet Name="FK_documents_esdeveniments" Association="Self.FK_documents_esdeveniments">
+      <End Role="esdeveniments" EntitySet="esdeveniments" />
+      <End Role="documents" EntitySet="documents" />
+    </AssociationSet>
+    <AssociationSet Name="FK_esdeveniments_comunitats1" Association="Self.FK_esdeveniments_comunitats1">
+      <End Role="comunitats" EntitySet="comunitats" />
+      <End Role="esdeveniments" EntitySet="esdeveniments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_notificacions_esdeveniments_esdeveniments" Association="Self.FK_notificacions_esdeveniments_esdeveniments">
+      <End Role="esdeveniments" EntitySet="esdeveniments" />
+      <End Role="notificacions_esdeveniments" EntitySet="notificacions_esdeveniments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_notificacions_esdeveniments_notificacions" Association="Self.FK_notificacions_esdeveniments_notificacions">
+      <End Role="notificacions" EntitySet="notificacions" />
+      <End Role="notificacions_esdeveniments" EntitySet="notificacions_esdeveniments" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

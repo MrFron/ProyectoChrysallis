@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Eventos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="titulo_app">Chrysallis</string>
+    <string name="subtitulo_micuenta">Mi cuenta</string>
+    <string name="nombre_micuenta">Alejandro Collado García</string>
+    <string name="numero_socio">Nº de socio:</string>
+    <string name="numero_socio2">485463</string>
+    <string name="cerrar_seseion">Cerrar sesión</string>
+    <string name="comunidades">Comunidades autonomas de interés</string>
+    <string name="seleccionar_comunidades">Seleccionar comunidades</string>
+    <string name="idiomas">Idiomas</string>
+    <string name="contacto">Contacto</string>
+    <string name="subtitulo_inicio">Inicio</string>
+    <string name="subtitulo2_inicio">Eventos de tu interés</string>
+</resources>
